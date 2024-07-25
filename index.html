@@ -3,10 +3,87 @@
   <head>
     <meta charset="UTF-8">
     <meta>
-    <title>Personal Site</title>
+    <title>Yordanos Yeshitla</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="images/y.png" type="image/x-icon">
   </head>
   <body>
+    <header>
+      <div class="navbar">
+        <a href="#home" id="name"><i class="fa-brands fa-yoast" id="logo"></i>Yordanos Yeshitla </a>
+        <nav class="navbar2">
+          <ul>
+            <li><i class="fas fa-home"></i><a href="#home" class="active">Home</a></li>
+            <li><i class="fas fa-code"></i><a href="#demos"> Demos</a></li>
+            <li><i class="fas fa-info-circle"></i><a href="#about"> About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home">
+      <div class="home-container">
+          <div class="home-image">
+              <img src="images/me.png" alt="Profile Picture">
+          </div>
+          <div class="home-text">
+              <h1>Yordanos Yeshitla</h1>
+              <p>Experienced Software Engineer</p>
+              <p>Specializing in Full Stack Development</p>
+              <p>Proficient in:</p>
+              <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Python</li>
+                  <li>Java</li>
+              </ul>
+              <button class="download-cv">Download Resume</button>
+          </div>
+      </div>
+  </section>
+  <section id="demos">
+    <div class="demos-container">
+        <h2>My Demo Projects</h2>
+        <div class="demo-cards">
+            <div class="demo-card">
+                <img src="images/demo1.png" alt="Demo 1">
+                <h3>Mrketing Website</h3>
+                <p>This platform is designed to help businesses elevate their online presence and reach their target audience effectively.</p>
+            </div>
+            <div class="demo-card">
+                <img src="images/demo2.png" alt="Demo 2">
+                <h3>Conference Site </h3>
+                <p> This platform provides all the essential information for our upcoming conference, including schedules, speaker profiles, session details, and registration options.</p>
+            </div>
+            <!-- Add more demo cards as needed -->
+        </div>
+    </div>
+</section> 
+<section id="about">
+  <div class="about-container">
+      <h2>About Me</h2>
+      <div class="about-info">
+          <p>Welcome to my personal website! I'm Yordanos Yeshitla, a passionate software engineer with a knack for crafting elegant solutions to complex problems.</p>
+          <p>With a strong foundation in HTML, CSS, JavaScript, Python, and Java, I specialize in creating responsive and user-friendly web applications that bring ideas to life.</p>
+          <p>Whether you're looking to enhance your online presence, streamline business processes, or embark on a digital transformation journey, I'm here to help.</p>
+          <p>Feel free to explore my portfolio, read my blog, or reach out to me directly for inquiries, collaboration opportunities, or just to say hello!</p>
+          <div class="button-container">
+              <a href="#portfolio" class="btn">Portfolio</a>
+          </div>
+      </div>
+  </div>
+</section>   
+<footer>
+  <div class="social-icons">
+      <a href="https://www.instagram.com/yordi.yes/"><i class="fab fa-telegram"></i></a>
+      <a href="@yordiyes"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/yordiyes"><i class="fab fa-github"></i></a>
+  </div>
+  <p>&copy; Personal Site By @yordiyes</p>
+  <i class="fa-brands fa-yoast"></i>
+</footer>
 
     <script src="script.js"></script>
   </body>
