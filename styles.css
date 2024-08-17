@@ -104,8 +104,8 @@ header {
 }
 
 .home-image img {
-    border-radius: 10px;
-    width: 370px;
+    border-radius: 70px;
+    width: 470px;
 }
 
 .home-text .download-cv {
@@ -211,4 +211,10 @@ footer {
 
 .social-icons a:hover {
     color: #6c839b;
+}
+.about-img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-left: 350px;
 }
