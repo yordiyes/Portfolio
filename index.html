@@ -1,87 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta>
-    <title>Yordanos Yeshitla</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="shortcut icon" href="images/y.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="shortcut icon" href="images/y.png" type="image/x-icon" />
   </head>
   <body>
-    <header>
-      <div class="navbar">
-        <a href="#home" id="name"><i class="fa-brands fa-yoast" id="logo"></i>Yordanos Yeshitla </a>
-        <nav class="navbar2">
-          <ul>
-            <li><i class="fas fa-home"></i><a href="#home" class="active">Home</a></li>
-            <li><i class="fas fa-code"></i><a href="#demos"> Demos</a></li>
-            <li><i class="fas fa-info-circle"></i><a href="#about"> About</a></li>
-          </ul>
-        </nav>
-      </div>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navBar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
-    <section id="home">
-      <div class="home-container">
-          <div class="home-image">
-              <img src="images/me 2.jpg" alt="Profile Picture">
-          </div>
-          <div class="home-text">
-              <h1>Yordanos Yeshitla</h1>
-              <p>Experienced Software Engineer</p>
-              <p>Specializing in Full Stack Development</p>
-              <p>Proficient in:</p>
-              <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>Python</li>
-                  <li>Java</li>
-              </ul>
-              <a href="New Resume.pdf"><button class="download-cv">Download Resume</button></a>
-          </div>
-      </div>
-  </section>
-  <section id="demos">
-    <div class="demos-container">
-        <h2>My Demo Projects</h2>
-        <div class="demo-cards">
-            <div class="demo-card">
-                <img src="images/demo1.jpg" alt="Demo 1">
-                <h3>Abysinica Coffee Shop</h3>
-                <p>Abbysinica Coffee Shop began as a simple dream rooted in a profound love for coffee and a deep respect for its rich cultural heritage. Founded in [Year], our journey started with a mission to bring the finest, ethically sourced coffee beans to our local community, ensuring every cup tells a story of passion, dedication, and quality.<p>
-            </div>
-            <div class="demo-card">
-                <img src="images/demo2.jpg" alt="Demo 2">
-                <h3>Todo List web app</h3>
-                <p>The Todo List web app is a user-friendly and efficient tool designed to help users manage their tasks and boost productivity. This application allows users to add, manage, and track their daily tasks in an organized manner.</p>
-            </div>
-            <!-- Add more demo cards as needed -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi</h3>
+        <h1>Yordanos Yeshitla</h1>
+        <h3>And I'm a <span>Frontend Developer</span></h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          nesciunt ullam deserunt velit! Iste, ullam aut. Soluta dicta commodi
+          totam?
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
-    </div>
-</section> 
-<section id="about">
-  <div class="about-container">
-      <h2>About Me</h2>
-      <div class="about-info">
-          <p>Welcome to my personal website! I'm Yordanos Yeshitla, a passionate software engineer with a knack for crafting elegant solutions to complex problems.</p>
-          <p>With a strong foundation in HTML, CSS, JavaScript, Python, and Java, I specialize in creating responsive and user-friendly web applications that bring ideas to life.</p>
-          <p>Whether you're looking to enhance your online presence, streamline business processes, or embark on a digital transformation journey, I'm here to help.</p>
-          <p>Feel free to explore my portfolio, read my blog, or reach out to me directly for inquiries, collaboration opportunities, or just to say hello!</p>
-          <img src="images/me 2.jpg" alt="" class="about-img">
+        <a href="#" class="btn">Downlad Cv</a>
       </div>
-  </div>
-</section>   
-<footer>
-  <div class="social-icons">
-      <a href="https://www.instagram.com/yordi.yes/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="@yordiyes"><i class="fab fa-telegram" target="_blank"></i></a>
-      <a href="https://github.com/yordiyes" target="_blank"><i class="fab fa-github"></i></a>
-  </div>
-  <p>&copy; Personal Site By @yordiyes</p>
-  <i class="fa-brands fa-yoast"></i>
-</footer>
+      <div class="home-img">
+        <img src="./images/me.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/me 3.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+          beatae sed libero vel corrupti odit quia, quas mollitia impedit a
+          voluptates error debitis cum eligendi eius ab ullam soluta fuga
+          officiis dignissimos eos atque illo. Cumque, dolores. Provident eos
+          temporibus sapiente reprehenderit at commodi, rerum quos tempore eaque
+          quis. Sequi.
+        </p>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+    </section>
 
     <script src="script.js"></script>
   </body>
