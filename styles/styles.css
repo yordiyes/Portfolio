@@ -292,7 +292,7 @@ span {
   align-items: center;
   width: 5rem;
   height: 5rem;
-  background: var(--text-color);
+  background: var(--main-color);
   border-radius: 50%;
 }
 
