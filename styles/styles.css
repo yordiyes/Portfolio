@@ -110,6 +110,7 @@ span {
 
 .home-content p {
   font-size: 1.7rem;
+  text-align: justify;
 }
 
 .social-media a {
@@ -179,6 +180,7 @@ span {
 .about-content p {
   font-size: 1.8rem;
   margin: 2rem 0 3rem;
+  text-align: justify;
 }
 
 /* services */
@@ -225,6 +227,7 @@ span {
 .services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+  /* text-align: justify; */
 }
 
 /* portfolio */
@@ -429,7 +432,7 @@ footer {
     font-size: 2.6rem;
   }
   .home-content h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .home-content {
     order: 2;
