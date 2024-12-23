@@ -161,6 +161,15 @@ span {
 }
 .about-img img {
   width: 35vw;
+  animation: glow 2.5s infinite ease-in-out;
+}
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px var(--snd-bf-color);
+  }
+  50% {
+    box-shadow: 0 0 10px var(--main-color);
+  }
 }
 
 .heading {
