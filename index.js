@@ -52,11 +52,3 @@ ScrollReveal().reveal(
 );
 ScrollReveal().reveal(".home-contact h1, .about-img", { origin: "left" });
 ScrollReveal().reveal(".home-contact p, .about-content", { origin: "right" });
-
-const typed = new Typed(".multiple-text", {
-  strings: ["Fullstack developer","Frontend Developer",  "Backend Developer"],
-  typeSpeed: 70,
-  backSpeed: 70,
-  backDelap: 1000,
-  loop: true,
-});
