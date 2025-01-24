@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <header className="header">
       <a href="#home" className="logo">
-        Portfolio
+        Yordanos Yeshitla
       </a>
       <i
         className={`fa-solid ${menuActive ? "fa-xmark" : "fa-bars"}`}
