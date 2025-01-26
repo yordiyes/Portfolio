@@ -1,11 +1,12 @@
-import chat from '../assets/chat.jpg'; // Replace with the correct relative path
-import coffeeShop from '../assets/coffee-shop.jpg';
-import restaurant from '../assets/resturant.jpg';
-import fasty from '../assets/fasty.jpg';
-import todoList from '../assets/demo2.jpg';
-import tindog from '../assets/tin-dog.jpg';
-import weatherApp from '../assets/weather-app.jpg';
-import ticTacToe from '../assets/tic-tac.jpg';
+import chat from "../assets/chat.jpg"; // Replace with the correct relative path
+import coffeeShop from "../assets/coffee-shop.jpg";
+import restaurant from "../assets/resturant.jpg";
+import fasty from "../assets/fasty.jpg";
+import todoList from "../assets/demo2.jpg";
+import tindog from "../assets/tin-dog.jpg";
+import weatherApp from "../assets/weather-app.jpg";
+import ticTacToe from "../assets/tic-tac.jpg";
+import E_learning from "../assets/e-learning.jpg";
 
 function Portfolio() {
   return (
@@ -16,6 +17,21 @@ function Portfolio() {
       <div className="portfolio-container">
         {/* Chat App */}
         <div className="portfolio-box">
+          <img src={E_learning} alt="Chat App" />
+          <div className="portfolio-layer">
+            <h4>E Learning Site</h4>
+            <p>
+              Empower your learning journey with our e-learning platform!
+              Whether you're a student looking to expand your knowledge or a
+              teacher ready to share expertise.
+            </p>
+            <a href="https://e-learning-site-xi.vercel.app/">
+              <i className="fa-solid fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio-box">
           <img src={chat} alt="Chat App" />
           <div className="portfolio-layer">
             <h4>Chat Application</h4>
@@ -24,21 +40,6 @@ function Portfolio() {
               authentication.
             </p>
             <a href="https://github.com/yordiyes/Chat-App">
-              <i className="fa-solid fa-share-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        {/* Coffee Shop Website */}
-        <div className="portfolio-box">
-          <img src={coffeeShop} alt="Coffee Shop Site" />
-          <div className="portfolio-layer">
-            <h4>Coffee Shop Website</h4>
-            <p>
-              A responsive site designed to display the menu and facilitate
-              online ordering for a coffee shop.
-            </p>
-            <a href="https://coffee-shop-site-blue.vercel.app/">
               <i className="fa-solid fa-share-from-square"></i>
             </a>
           </div>
@@ -54,6 +55,21 @@ function Portfolio() {
               interactions.
             </p>
             <a href="https://resturant-site-three.vercel.app/">
+              <i className="fa-solid fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        {/* Coffee Shop Website */}
+        <div className="portfolio-box">
+          <img src={coffeeShop} alt="Coffee Shop Site" />
+          <div className="portfolio-layer">
+            <h4>Coffee Shop Website</h4>
+            <p>
+              A responsive site designed to display the menu and facilitate
+              online ordering for a coffee shop.
+            </p>
+            <a href="https://coffee-shop-site-blue.vercel.app/">
               <i className="fa-solid fa-share-from-square"></i>
             </a>
           </div>
@@ -123,9 +139,13 @@ function Portfolio() {
           <div className="portfolio-layer">
             <h4>Tic Tac Toe Game</h4>
             <p>
-              A simple and interactive Tic Tac Toe game built with JavaScript, HTML, and CSS.
+              A simple and interactive Tic Tac Toe game built with JavaScript,
+              HTML, and CSS.
             </p>
-            <a href="https://yordiyes.github.io/Tic-Tac-Toe-Game/" target="_blank">
+            <a
+              href="https://yordiyes.github.io/Tic-Tac-Toe-Game/"
+              target="_blank"
+            >
               <i className="fa-solid fa-share-from-square"></i>
             </a>
           </div>
