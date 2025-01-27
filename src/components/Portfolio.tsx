@@ -6,7 +6,7 @@ import todoList from "../assets/demo2.jpg";
 import tindog from "../assets/tin-dog.jpg";
 import weatherApp from "../assets/weather-app.jpg";
 import ticTacToe from "../assets/tic-tac.jpg";
-import E_learning from "../assets/e-learning.jpg";
+import E_learning from "../assets/E-learning.jpg";
 
 function Portfolio() {
   return (
