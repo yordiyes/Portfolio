@@ -7,6 +7,7 @@ import tindog from "../assets/tin-dog.jpg";
 import weatherApp from "../assets/weather-app.jpg";
 import ticTacToe from "../assets/tic-tac.jpg";
 import E_learning from "../assets/E-learning.jpg";
+import Tech_landing from "../assets/Tech_landing.jpg";
 
 function Portfolio() {
   return (
@@ -15,7 +16,22 @@ function Portfolio() {
         Latest <span>Projects</span>
       </h2>
       <div className="portfolio-container">
-        {/* Chat App */}
+        <div className="portfolio-box">
+          <img src={Tech_landing} alt="Tech Landing Page" />
+          <div className="portfolio-layer">
+            <h4>Tech Landing Page</h4>
+            <p>
+              A sleek and modern landing page for showcasing tech products and
+              services. Designed for startups, businesses, and developers to
+              highlight features, engage users, and drive conversions with a
+              responsive UI.
+            </p>
+            <a href="https://tech-landing-page-seven.vercel.app/">
+              <i className="fa-solid fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+
         <div className="portfolio-box">
           <img src={E_learning} alt="Chat App" />
           <div className="portfolio-layer">
