@@ -22,7 +22,7 @@ function Home() {
       <div className="home-content">
         <h3>Hi 👋</h3>
         <h1>Yordanos Yeshitla</h1>
-        <h3>And I'm a <span className="multiple-text"></span></h3> {/* Ensure this element is empty initially */}
+        <h3>And I'm a <span className="multiple-text"></span></h3> 
         <p>
           A dedicated Software Engineering student with a focus on full-stack development and <br />
           problem-solving. Continuously learning and striving to build efficient, user-friendly <br />
