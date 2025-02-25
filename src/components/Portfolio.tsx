@@ -8,6 +8,7 @@ import weatherApp from "../assets/weather-app.jpg";
 import ticTacToe from "../assets/tic-tac.jpg";
 import E_learning from "../assets/E-learning.jpg";
 import Tech_landing from "../assets/Tech_landing.jpg";
+import hudc from "../assets/hudc.jpg";
 
 function Portfolio() {
   return (
@@ -16,6 +17,19 @@ function Portfolio() {
         Latest <span>Projects</span>
       </h2>
       <div className="portfolio-container">
+      <div className="portfolio-box">
+  <img src={hudc} alt="Haramaya University Developers Community Website" />
+  <div className="portfolio-layer">
+    <h4>Haramaya University Developers Community Website</h4>
+    <p>
+      The official repository for the Haramaya University Developers Community website as Frontend Developer.
+    </p>
+    <a href="https://hudc.org">
+      <i className="fa-solid fa-share-from-square"></i>
+    </a>
+  </div>
+</div>
+
         <div className="portfolio-box">
           <img src={Tech_landing} alt="Tech Landing Page" />
           <div className="portfolio-layer">
