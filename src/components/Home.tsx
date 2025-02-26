@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Typed from "typed.js";  
 import me from "../assets/me.png";
+import resume from "../assets/Resume.pdf";
 
 function Home() {
   useEffect(() => {
@@ -34,7 +35,7 @@ function Home() {
           <a href="https://www.linkedin.com/in/yordanos-yeshitla-290687285/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
           <a href="https://www.instagram.com/yordi.yes/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
         </div>
-        <a href="./images/Resume.pdf" className="btn">Download Cv</a>
+        <a href={resume} className="btn">Download Cv</a>
       </div>
       <div className="home-img">
         <img src={me} alt="Yordanos Yeshitla" />
