@@ -10,7 +10,6 @@ function About() {
         <h2 className="heading">
           About <span>Me</span>
         </h2>
-        <h3>Frontend Developer</h3>
         <p>
           I am a 4th-year Software Engineering student at Haramaya University
           with a specialization in full-stack development. I have a strong
