@@ -2,12 +2,12 @@ import chat from "../assets/chat.jpg"; // Replace with the correct relative path
 import coffeeShop from "../assets/coffee-shop.jpg";
 import restaurant from "../assets/resturant.jpg";
 import fasty from "../assets/fasty.jpg";
-import todoList from "../assets/demo2.jpg";
 import tindog from "../assets/tin-dog.jpg";
 import weatherApp from "../assets/weather-app.jpg";
 import ticTacToe from "../assets/tic-tac.jpg";
 import E_learning from "../assets/E-learning.jpg";
 import Tech_landing from "../assets/Tech_landing.jpg";
+import TaskManagementApp from "../assets/TaskManagementApp.png";
 import hudc from "../assets/hudc.jpg";
 
 function Portfolio() {
@@ -18,17 +18,34 @@ function Portfolio() {
       </h2>
       <div className="portfolio-container">
       <div className="portfolio-box">
-  <img src={hudc} alt="Haramaya University Developers Community Website" />
-  <div className="portfolio-layer">
-    <h4>Haramaya University Developers Community Website</h4>
-    <p>
-      The official repository for the Haramaya University Developers Community website as Frontend Developer.
-    </p>
-    <a href="https://hudc.org">
-      <i className="fa-solid fa-share-from-square"></i>
-    </a>
-  </div>
-</div>
+        <img src={hudc} alt="Haramaya University Developers Community Website" />
+          <div className="portfolio-layer">
+            <h4>Haramaya University Developers Community Website</h4>
+            <p>
+              The official repository for the Haramaya University Developers Community website as Frontend Developer.
+            </p>
+            <a href="https://hudc.org">
+              <i className="fa-solid fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio-box">
+          <img src={TaskManagementApp} alt="Task Management App" />
+          <div className="portfolio-layer">
+            <h4>Task Management App</h4>
+            <p>
+              A simple and intuitive task management application that allows users to
+              add, update, and delete tasks. With a focus on functionality and ease of
+              use, this app helps users stay organized, track their progress, and
+              prioritize their to-dos effectively.
+            </p>
+            <a href="https://task-management-site-three.vercel.app">
+              <i className="fa-solid fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+
 
         <div className="portfolio-box">
           <img src={Tech_landing} alt="Tech Landing Page" />
@@ -115,21 +132,6 @@ function Portfolio() {
               information about our connection.
             </p>
             <a href="https://github.com/yordiyes/How-Fast.git" target="_blank">
-              <i className="fa-solid fa-share-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        {/* To-Do List App */}
-        <div className="portfolio-box">
-          <img src={todoList} alt="To-Do List App" />
-          <div className="portfolio-layer">
-            <h4>To-Do List App</h4>
-            <p>
-              An app for managing personal tasks with features like adding,
-              deleting, and updating tasks.
-            </p>
-            <a href="https://yordiyes.github.io/To-Do-List-App/">
               <i className="fa-solid fa-share-from-square"></i>
             </a>
           </div>
