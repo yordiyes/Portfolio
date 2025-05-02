@@ -3,8 +3,6 @@ import coffeeShop from "../assets/coffee-shop.jpg";
 import restaurant from "../assets/resturant.jpg";
 import fasty from "../assets/fasty.jpg";
 import tindog from "../assets/tin-dog.jpg";
-import weatherApp from "../assets/weather-app.jpg";
-import ticTacToe from "../assets/tic-tac.jpg";
 import E_learning from "../assets/E-learning.jpg";
 import Tech_landing from "../assets/Tech_landing.jpg";
 import TaskManagementApp from "../assets/TaskManagementApp.png";
@@ -17,12 +15,16 @@ function Portfolio() {
         Latest <span>Projects</span>
       </h2>
       <div className="portfolio-container">
-      <div className="portfolio-box">
-        <img src={hudc} alt="Haramaya University Developers Community Website" />
+        <div className="portfolio-box">
+          <img
+            src={hudc}
+            alt="Haramaya University Developers Community Website"
+          />
           <div className="portfolio-layer">
             <h4>Haramaya University Developers Community Website</h4>
             <p>
-              The official repository for the Haramaya University Developers Community website as Frontend Developer.
+              The official repository for the Haramaya University Developers
+              Community website as Frontend Developer.
             </p>
             <a href="https://hudc.org">
               <i className="fa-solid fa-share-from-square"></i>
@@ -35,17 +37,17 @@ function Portfolio() {
           <div className="portfolio-layer">
             <h4>Task Management App</h4>
             <p>
-              A simple and intuitive task management application that allows users to
-              add, update, and delete tasks. With a focus on functionality and ease of
-              use, this app helps users stay organized, track their progress, and
-              prioritize their to-dos effectively.
+              A simple and intuitive task management application that allows
+              users to add, update, and delete tasks. With a focus on
+              functionality and ease of use, this app helps users stay
+              organized, track their progress, and prioritize their to-dos
+              effectively.
             </p>
             <a href="https://task-management-site-three.vercel.app">
               <i className="fa-solid fa-share-from-square"></i>
             </a>
           </div>
         </div>
-
 
         <div className="portfolio-box">
           <img src={Tech_landing} alt="Tech Landing Page" />
@@ -146,38 +148,6 @@ function Portfolio() {
               A Tinder-inspired app for dog lovers to find their furry match.
             </p>
             <a href="https://tin-dog-site-project.vercel.app/">
-              <i className="fa-solid fa-share-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        {/* Weather Web App */}
-        <div className="portfolio-box">
-          <img src={weatherApp} alt="Weather App" />
-          <div className="portfolio-layer">
-            <h4>Weather Web App</h4>
-            <p>
-              A web application that displays real-time weather information.
-            </p>
-            <a href="https://weather-web-app-brown-theta.vercel.app/">
-              <i className="fa-solid fa-share-from-square"></i>
-            </a>
-          </div>
-        </div>
-
-        {/* Tic Tac Toe Game */}
-        <div className="portfolio-box">
-          <img src={ticTacToe} alt="Tic Tac Toe Game" />
-          <div className="portfolio-layer">
-            <h4>Tic Tac Toe Game</h4>
-            <p>
-              A simple and interactive Tic Tac Toe game built with JavaScript,
-              HTML, and CSS.
-            </p>
-            <a
-              href="https://yordiyes.github.io/Tic-Tac-Toe-Game/"
-              target="_blank"
-            >
               <i className="fa-solid fa-share-from-square"></i>
             </a>
           </div>
