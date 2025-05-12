@@ -1,17 +1,18 @@
 import './App.css';
-import Header from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Services from './components/Services';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Hero from './pages/sections/Hero';
+import About from './pages/sections/About';
+import Services from './pages/sections/Services';
+import Portfolio from './pages/sections/Portfolio';
+import Contact from './pages/sections/Contact';
+
 
 function App() {
   return (
     <div>
-      <Header />
-      <Home />
+      <Navbar />
+      <Hero />
       <About />
       <Services />
       <Portfolio />
