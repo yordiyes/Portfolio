@@ -1,4 +1,4 @@
-import me from "../assets/me 3.png";
+import me from "../../assets/me 3.png";
 
 function About() {
   return (

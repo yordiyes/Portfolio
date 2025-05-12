@@ -1,12 +1,12 @@
-import chat from "../assets/chat.jpg"; // Replace with the correct relative path
-import coffeeShop from "../assets/coffee-shop.jpg";
-import restaurant from "../assets/resturant.jpg";
-import fasty from "../assets/fasty.jpg";
-import tindog from "../assets/tin-dog.jpg";
-import E_learning from "../assets/E-learning.jpg";
-import Tech_landing from "../assets/Tech_landing.jpg";
-import TaskManagementApp from "../assets/TaskManagementApp.png";
-import hudc from "../assets/hudc.jpg";
+import chat from "../../assets/chat.jpg"; // Replace with the correct relative path
+import coffeeShop from "../../assets/coffee-shop.jpg";
+import restaurant from "../../assets/resturant.jpg";
+import fasty from "../../assets/fasty.jpg";
+import tindog from "../../assets/tin-dog.jpg";
+import E_learning from "../../assets/E-learning.jpg";
+import Tech_landing from "../../assets/Tech_landing.jpg";
+import TaskManagementApp from "../../assets/TaskManagementApp.png";
+import hudc from "../../assets/hudc.jpg";
 
 function Portfolio() {
   return (

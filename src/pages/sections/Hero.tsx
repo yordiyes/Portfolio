@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import Typed from "typed.js";  
-import me from "../assets/me.png";
-import resume from "../assets/Resume.pdf";
+import me from "../../assets/me.png";
 
 function Home() {
   useEffect(() => {
@@ -23,19 +22,52 @@ function Home() {
       <div className="home-content">
         <h3>Hi 👋</h3>
         <h1>Yordanos Yeshitla</h1>
-        <h3>And I'm a <span className="multiple-text"></span></h3> 
+        <h3>
+          And I'm a <span className="multiple-text"></span>
+        </h3>
         <p>
-          A dedicated Software Engineering student with a focus on full-stack development and <br />
-          problem-solving. Continuously learning and striving to build efficient, user-friendly <br />
+          A dedicated Software Engineering student with a focus on full-stack
+          development and <br />
+          problem-solving. Continuously learning and striving to build
+          efficient, user-friendly <br />
           applications that bring ideas to life.
         </p>
         <div className="social-media">
-          <a href="https://t.me/yordiyes" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-telegram"></i></a>
-          <a href="https://github.com/yordiyes" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/yordanos-yeshitla-290687285/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://www.instagram.com/yordi.yes/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+          <a
+            href="https://t.me/yordiyes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-telegram"></i>
+          </a>
+          <a
+            href="https://github.com/yordiyes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/yordanos-yeshitla-290687285/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/yordi.yes/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-instagram"></i>
+          </a>
         </div>
-        <a href={resume} className="btn">Download Cv</a>
+        <a
+          href="https://drive.google.com/file/d/1-pM3JWx8NByIOenYsm9eYrJ-vicd76A4/view?usp=sharing"
+          className="btn"
+        >
+          Download Cv
+        </a>
       </div>
       <div className="home-img">
         <img src={me} alt="Yordanos Yeshitla" />
